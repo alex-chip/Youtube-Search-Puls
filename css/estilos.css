@@ -52,7 +52,7 @@ body
 	background: #EFEFEF;
 	color: #4C4C4C;
 	font-family: "PT Sans", Arial;
-	font-size: 19px;
+	font-size: 16px;
 	margin: 0;
 }
 footer
@@ -137,11 +137,11 @@ header #logo img:hover,header #logo img.hover_effect {
 	display: none;
 	margin-right: 2%;
 	position: absolute;
-	rigth: 0;
+	right: 0;
 	vertical-align: top;
 	width: 25%;
 }
-#rigth h2
+#right h2
 {
 	color: #434343;
 }
@@ -235,7 +235,7 @@ header #logo img:hover,header #logo img.hover_effect {
 .item
 {
 	background: white;
-	border-botom: 3px #22BCE0;
+	border-bottom: 3px #22BCE0 solid;
 	border-radius: 5px;
 	/* height 128px*/
 	list-style: none;
@@ -289,7 +289,7 @@ header #logo img:hover,header #logo img.hover_effect {
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color: white;
-	floar: left;
+	float: left;
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
@@ -303,7 +303,7 @@ header #logo img:hover,header #logo img.hover_effect {
 	width: 100%;
 	height: 315px;
 }
-.item .image_item img
+.item .image_item 
 {
 	float: left;
 	margin: 0 1em -4px 0;
@@ -324,7 +324,7 @@ header #logo img:hover,header #logo img.hover_effect {
 	overflow: hidden;
 	padding: 0.5em 0.5em 0;
 	text-overflow: ellipsis;
-	white-space: nowrap:;
+	white-space: nowrap;
 }
 .item .title_item a
 {
@@ -346,9 +346,9 @@ header #logo img:hover,header #logo img.hover_effect {
 	top: -15px;
 }
 
-@media screen and (min-width: 788px)
+@media screen and (min-width: 768px)
 {
-	#result_youtube article: ntd-child(2)
+	#result_youtube article:nth-child(2)
 	{
 		width: 70%;
 	}

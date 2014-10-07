@@ -12,8 +12,7 @@ Templates.video = [
 			'<span class="published_item">{{ published }}</span>',
 		'</p>',
 	'</div>',
-	'<div class="embed
-		_item">',
+	'<div class="embed_item">',
 		'<iframe src="{{ embed }}" frameborder="0" allowfullscreen></iframe>',
 		'</div>',
 	'</article>'
